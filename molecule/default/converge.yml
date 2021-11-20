@@ -5,4 +5,4 @@
     remote_backup_external_backups_path: /tmp
   roles:
     - role: ansible-raspberry-remote-backup
-      tags: backup
+      tags: remotebackup

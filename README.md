@@ -31,7 +31,7 @@ This role relies on the following dependencies:
 - hosts: all
   roles:
     - role: escalate.remote_backup
-      tags: backup
+      tags: remotebackup
 ```
 
 ## License
