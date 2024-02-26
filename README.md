@@ -1,4 +1,4 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-remote-backup/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-remote-backup/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-remote-backup/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-remote-backup/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Remote Backup
 
@@ -7,12 +7,6 @@ An Ansible role that manages remote backup job configuration on Raspberry Pi OS 
 The remote backup job expects a mountpoint for backing up the local files via rsync.
 
 Use for e.g. an [smb mount](https://github.com/escalate/ansible-raspberry-smb-mount) to backup your files to a NAS.
-
-## Install
-
-```
-$ ansible-galaxy install escalate.remote_backup
-```
 
 ## Role Variables
 
@@ -24,6 +18,12 @@ This role relies on the following dependencies:
 
 * Roles: [requirements.yml](https://github.com/escalate/ansible-raspberry-remote-backup/blob/master/requirements.yml)
 * Collections: None
+
+## Installation
+
+```
+$ ansible-galaxy role install escalate.remote_backup
+```
 
 ## Example Playbook
 
