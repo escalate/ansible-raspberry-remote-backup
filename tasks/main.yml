@@ -4,7 +4,7 @@
     dest: /usr/local/bin/remote-backup.sh
     owner: root
     group: root
-    mode: 0755
+    mode: "0755"
 
 - name: Add remote backup cron job
   ansible.builtin.cron:

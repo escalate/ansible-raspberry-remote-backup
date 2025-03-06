@@ -16,8 +16,8 @@ Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-rem
 
 This role relies on the following dependencies:
 
-* Roles: [requirements.yml](https://github.com/escalate/ansible-raspberry-remote-backup/blob/master/requirements.yml)
-* Collections: None
+- Roles: [requirements.yml](https://github.com/escalate/ansible-raspberry-remote-backup/blob/master/requirements.yml)
+- Collections: None
 
 ## Installation
 
